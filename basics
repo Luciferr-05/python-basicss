@@ -1,0 +1,31 @@
+print("vamsi krishna")
+print("vamsi's pic")
+print('vamsi "krishna"') 
+print('vamsi\'s"lattop"')  # (\) it is a backshall ignore the meaning of speacial one
+print('vamsi'+'vamsi') 
+print(10*'vamsi')
+print('c:\docs\notes')  #\n is called as new line
+print(r'c:\docs\notes') #r is called as raw string(its helps do not convert into new line)
+
+#variablies : variablies are like container which store values ex: x=2
+x=2
+y=3
+print(x+y)
+x=9 # _underscore is the output of previous operation
+
+print(x+y)
+
+# variablies using string
+# combinations of characters is called string
+name='vamsi'
+print(name)
+print(name +' rocks')
+print(name[0]) #[] the square brakets is used for count the characters in strings
+print(name[3]) #[3] it used to identify the place of a letter or character in a string
+print(name[-1]) #[-1] it used to identify the place of  a letterfor rigth to left in a string 
+print(name[-3])
+print(name[0:3]) #[:] it is used print more than onr characters  
+print(name[1:3]) 
+print(name[0:]) 
+
+print(name)
