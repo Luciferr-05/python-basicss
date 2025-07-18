@@ -24,8 +24,37 @@ print(name[0]) #[] the square brakets is used for count the characters in string
 print(name[3]) #[3] it used to identify the place of a letter or character in a string
 print(name[-1]) #[-1] it used to identify the place of  a letterfor rigth to left in a string 
 print(name[-3])
-print(name[0:3]) #[:] it is used print more than onr characters  
+print(name[0:3]) #[:] it is used print more than one characters  (it is called as slicing
 print(name[1:3]) 
-print(name[0:]) 
+print(name[:-1]) #it is used to print all the characters except last one
+print(name[1:]) #it is used to print all the characters except first one        
+print(name[0])
+print('my'+name[:])
+print(name[0:3] + ' rocks')  # it is used to print the characters from 0 to 3 and add rocks
+print(name[0:3] + ' rocks' + name[ 3:])  #   it is used to print the characters from 0 to 3 and add rocks and add the remaining characters
+print(name[0:3] + ' rocks' + name[ 3:] + ' is my name')  # it is used to print the characters from 0 to 3 and add rocks and add the remaining characters and add is my name
+print(name[0:3] + ' rocks' + name[ 3:] + ' is my name' + ' and i am a student')  # it is used to print the characters from 0 to 3 and add rocks and add the remaining characters and add is my name and add and i am a student
 
-print(name)
+myname = 'vamsi krishna'
+print(len(myname))  # len() is used to count the number of characters in a string
+print(myname.upper())  # upper() is used to convert the string into uppercase   
+print(myname.lower())  # lower() is used to convert the string into lowercase
+print(myname.title())  # title() is used to convert the first letter of each word into uppercase
+print(myname.capitalize())  # capitalize() is used to convert the first letter of the string into uppercase
+print(myname.replace('vamsi', 'krishna'))  # replace() is usedto replace a word in a string with another word   
+print(myname.find('vamsi'))  # find() is used to find the position of a word in a string
+print(myname.find('krishna'))  # find() is used to find the position of a word in a string
+print(myname.count('a'))  # count() is used to count the number of times a word appears in a string
+print(myname.count('vamsi'))  # count() is used to count the number of times a word appears in a string
+print(myname.count('z'))  # count() is used to count the number of times        a word appears in a string (if the word is not present, it returns 0)
+print(myname.startswith('vamsi'))  # startswith() is used to check if a string starts with a particular word
+print(myname.endswith('krishna'))  # endswith() is used to check if a string ends with a particular word
+print(myname.startswith('krishna'))  # startswith() is used to check if a string starts with a particular word
+print(myname.endswith('vamsi'))  # endswith() is used to check if           a string ends with a particular word
+print(myname.split())  # split() is used to split a string into a list of words
+print(myname.split(' '))  # split() is used to split a string into a list of words (here, it splits the string at each space)
+print(myname.split('a'))  # split() is used to split a string into a                                                                list of words (here, it splits the string at each 'a')
+print(myname.split('v'))  # split() is used to split a string into a list of words (here, it splits the string at each 'v')
+print(myname.split('vamsi'))  # split() is used to split a string into a list of words (here, it splits the string at each 'vamsi')
+print(myname.split('krishna'))  # split() is used to split a string into        a list of words (here, it splits the string at each 'krishna')
+print(myname.split(' '))  # split() is used to split a string into a list of words (here, it splits the string at each space)
