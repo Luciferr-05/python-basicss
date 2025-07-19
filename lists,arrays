@@ -1,0 +1,28 @@
+nums = [12,24,23,45,]
+print(nums)
+print(nums[0])  # prints the first element of the list  
+print(nums[3])  # prints the second element of the list
+print(nums[-1])  # prints the third element of the list
+print(nums[-3])  # prints the fourth element of the list
+print(nums[0:3])  # prints the first three elements of the list 
+
+names = ['vamsi', 'wahab', 'sai', 'kiran']
+print(names)  # prints the entire list of names                                                           
+
+values = [9.5,'vamsi',2]
+mil = [names, nums, values]  # creates a list of lists
+print(mil)  # prints the list of lists
+nums.append(100)  # appends 100 to the end of the nums list
+print(nums)  # prints the updated nums list
+nums.insert(2,44)  # inserts 200 at index 2 of the nums list
+print(nums)  # prints the updated nums list
+nums.remove(44)  # removes 44 from the nums list
+print(nums)  # prints the updated nums list 
+nums.pop(3)  # removes the element at index 3 from the nums list
+print(nums)  # prints the updated nums list
+nums.pop()  # removes the all elements expect last one from the nums list
+print(nums.pop())  # prints the last element of the nums list and removes it
+del nums[2:]  # deletes the first element of the nums list
+print(nums)  # prints the updated nums list
+nums.extend([100, 200, 300])  # extends the nums list with the elements 100, 200, and 300
+print(nums)  # prints the updated nums list 
