@@ -12,7 +12,6 @@ x=2
 y=3
 print(x+y)
 x=9 # _underscore is the output of previous operation
-
 print(x+y)
 
 # variablies using string
@@ -58,3 +57,4 @@ print(myname.split('v'))  # split() is used to split a string into a list of wor
 print(myname.split('vamsi'))  # split() is used to split a string into a list of words (here, it splits the string at each 'vamsi')
 print(myname.split('krishna'))  # split() is used to split a string into        a list of words (here, it splits the string at each 'krishna')
 print(myname.split(' '))  # split() is used to split a string into a list of words (here, it splits the string at each space)
+print("vamsi 'krishna'")  # This will raise a SyntaxError because of missing '+' operator

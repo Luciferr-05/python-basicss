@@ -1,0 +1,28 @@
+# Tuple and Sets in Python
+
+# Tuples: Immutable sequences
+my_tuple = (1, 2, 3, "apple", 4.5)
+print("Tuple:", my_tuple)
+print("First element:", my_tuple[0])
+
+# Tuples are immutable
+# my_tuple[1] = 10  # This will raise a TypeError
+
+# Sets: Unordered collections of unique elements
+my_set = {1, 2, 3, 2, 4, "banana"}
+print("Set:", my_set)
+
+# Adding elements to a set
+my_set.add("apple")
+print("Set after adding 'apple':", my_set)
+
+# Removing elements from a set
+my_set.discard(2)
+print("Set after discarding 2:", my_set)
+
+# Set operations
+set_a = {1, 2, 3}
+set_b = {3, 4, 5}
+print("Union:", set_a | set_b)
+print("Intersection:", set_a & set_b)
+print("Difference:", set_a - set_b)
