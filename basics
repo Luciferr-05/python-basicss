@@ -18,7 +18,7 @@ print(x+y)
 
 # variablies using string
 # combinations of characters is called string
-name='lucifer krishna'
+name='lucifer'
 print(name)
 print(name +' rocks')
 print(name[0]) #[] the square brakets is used for count the characters in strings
