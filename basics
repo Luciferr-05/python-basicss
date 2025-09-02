@@ -1,9 +1,10 @@
-print("vamsi krishna")
-print("vamsi's pic")
-print('vamsi "krishna"') 
-print('vamsi\'s"lattop"')  # (\) it is a backshall ignore the meaning of speacial one
-print('vamsi'+'vamsi') 
-print(10*'vamsi')
+print("Lucifer")
+print("Lucifer's pic")
+print('Lucifer "pic]"') 
+print('Lucifer\'s"lattop"')  # (\) it is a backshall ignore the meaning of speacial one
+print('lucifer'+'s'+'lattop') # (+) it is used to combine two stringsl  
+print(10*'lucifer ') # (*) it is used to repeat the string
+print('lucifer\nhello') #(\n) it is used to print in new line
 print('c:\docs\notes')  #\n is called as new line
 print(r'c:\docs\notes') #r is called as raw string(its helps do not convert into new line)
 
@@ -16,7 +17,7 @@ print(x+y)
 
 # variablies using string
 # combinations of characters is called string
-name='vamsi'
+name='lucifer'
 print(name)
 print(name +' rocks')
 print(name[0]) #[] the square brakets is used for count the characters in strings
@@ -34,7 +35,7 @@ print(name[0:3] + ' rocks' + name[ 3:])  #   it is used to print the characters 
 print(name[0:3] + ' rocks' + name[ 3:] + ' is my name')  # it is used to print the characters from 0 to 3 and add rocks and add the remaining characters and add is my name
 print(name[0:3] + ' rocks' + name[ 3:] + ' is my name' + ' and i am a student')  # it is used to print the characters from 0 to 3 and add rocks and add the remaining characters and add is my name and add and i am a student
 
-myname = 'vamsi krishna'
+myname = 'lucifer'
 print(len(myname))  # len() is used to count the number of characters in a string
 print(myname.upper())  # upper() is used to convert the string into uppercase   
 print(myname.lower())  # lower() is used to convert the string into lowercase
@@ -57,4 +58,4 @@ print(myname.split('v'))  # split() is used to split a string into a list of wor
 print(myname.split('vamsi'))  # split() is used to split a string into a list of words (here, it splits the string at each 'vamsi')
 print(myname.split('krishna'))  # split() is used to split a string into        a list of words (here, it splits the string at each 'krishna')
 print(myname.split(' '))  # split() is used to split a string into a list of words (here, it splits the string at each space)
-print("vamsi 'krishna'")  # This will raise a SyntaxError because of missing '+' operator
+print("lucifer 'pic'")  # This will raise a SyntaxError because of missing '+' operator
