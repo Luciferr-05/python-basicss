@@ -1,7 +1,7 @@
 print("Lucifer krishna")
 print('Lucifer krishna')
 print("Lucifer's pic")
-print('Lucifer "pic]"') 
+print('Lucifer "pic"') 
 print('Lucifer\'s"lattop"')  # (\) it is a backshall ignore the meaning of speacial one
 print('lucifer'+'s'+'lattop') # (+) it is used to combine two stringsl  
 print(10*'lucifer ') # (*) it is used to repeat the string
@@ -59,4 +59,11 @@ print(myname.split('l'))  # split() is used to split a string into a list of wor
 print(myname.split('lucifer'))  # split() is used to split a string into a list of words (here, it splits the string at each 'vamsi')
 print(myname.split('krishna'))  # split() is used to split a string into        a list of words (here, it splits the string at each 'krishna')
 print(myname.split(' '))  # split() is used to split a string into a list of words (here, it splits the string at each space)
-print("lucifer 'pic'")  # This will raise a SyntaxError because of missing '+' operator
+print(myname.split('z'))  # split() is used to split a string into a list of words (here, it splits the string at each 'z' but since 'z' is not present, it returns the entire string as a single element in the list)
+print(myname.center(50))  # center() is used to center a string in a given width
+print(myname.center(50,'*'))  # center() is used to center a string in a given width (here, it fills the empty spaces with '*')
+print(myname.ljust(50))  # ljust() is used to left justify a string in a given width
+print(myname.ljust(50,'-'))  # ljust() is used to left justify a string in a given width (here, it fills the empty spaces with '-')
+print(myname.rjust(50))  # rjust() is used to right justify a string in a given width
+print(myname.rjust(50,'+'))  # rjust() is used to right justify a string in a given width (here, it fills the empty spaces with '+')
+print(myname.strip())  # strip() is used to remove the leading and trailing spaces from a string
