@@ -6,7 +6,7 @@ print(nums[-1])  # prints the third element of the list
 print(nums[-3])  # prints the fourth element of the list
 print(nums[0:3])  # prints the first three elements of the list 
 
-names = ['vamsi', 'wahab', 'sai', 'kiran']
+names = ['lucifer', 'wahab', 'sai', 'kiran']
 print(names)  # prints the entire list of names                                                           
 
 values = [9.5,'vamsi',2]
@@ -25,4 +25,5 @@ print(nums.pop())  # prints the last element of the nums list and removes it
 del nums[2:]  # deletes the first element of the nums list
 print(nums)  # prints the updated nums list
 nums.extend([100, 200, 300])  # extends the nums list with the elements 100, 200, and 300
-print(nums)  # prints the updated nums list 
+print(nums)  # prints the updated nums list     
+
