@@ -1,7 +1,7 @@
-s Tuple and Sets in Python
+ #Tuple and Sets in Python
 
 # Tuples: Immutable sequences
-my_tuple = (1, 2, 3, "apple", 4.5)
+my_tuple = (1, 2, 3, "mango", 4.5)
 print("Tuple:", my_tuple)
 print("First element:", my_tuple[0])
 
